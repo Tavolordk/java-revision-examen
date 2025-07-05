@@ -71,6 +71,8 @@ class Estudiante extends Persona{
 
     public static void main(String [] args){
         Persona estudiante = new Estudiante(23, "Alberto","Gomez",122334,"Biología");
+        String texto="Hola";
+        System.out.println(texto.toUpperCase());
         System.out.println(estudiante.dameLaEdadConDistintoFormato("23",23,23.5));
     }
 }
