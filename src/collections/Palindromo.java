@@ -20,6 +20,10 @@ public class Palindromo {
         return true;
     }
 
+    public static boolean esPalindromoOpcionDos(String texto){
+        return new StringBuilder().equals(texto.replaceAll("^[a-z0-9A-Z]",""));
+    }
+
     public static void main(String[] args) {
         String texto="dábale arroz a la zorra el abad";
         if(texto.contains("á")){
